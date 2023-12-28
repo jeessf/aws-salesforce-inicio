@@ -30,4 +30,4 @@ def lambda_handler(event, context):
         print(f"Account ID: {record['Id']}, Name: {record['Name']}")
     
     
-lambda_handler(None, None)
+# lambda_handler(None, None)
